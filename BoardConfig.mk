@@ -177,9 +177,7 @@ TARGET_SMARTCHARGE_CONTROL_NODE := "sys/class/power_supply/battery/input_suspend
 TARGET_SMARTCHARGE_REVERSE_LOGIC := true
 
 # Treble
-BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 BOARD_VNDK_VERSION := current
-PRODUCT_VENDOR_MOVE_ENABLED := true
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
