@@ -19,9 +19,8 @@ on boot
     chown system system /proc/tp_gesture
     chmod 0660 /proc/tp_gesture
 
-    # Kernelspace battery saver
-    chown system system /sys/module/battery_saver/parameters/enabled
-    chmod 0660 /sys/module/battery_saver/parameters/enabled
+    # Enable PowerHAL hint processing
+    setprop vendor.powerhal.init 1
 
     # Thermal Profile
     write /sys/class/thermal/thermal_message/sconfig 0
