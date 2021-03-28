@@ -16,8 +16,8 @@ on post-fs
 
 on boot
     # DT2W
-    chown system system /sys/touchpanel/double_tap
-    chmod 0660 /sys/touchpanel/double_tap
+    chown system system /proc/tp_gesture
+    chmod 0660 /proc/tp_gesture
 
     # Kernelspace battery saver
     chown system system /sys/module/battery_saver/parameters/enabled
