@@ -58,6 +58,10 @@ cc_binary {
         "libdisppower-pixel",
         "libperfmgr",
     ],
+    header_libs: [
+        "libhardware_headers",
+        "generated_kernel_headers",
+    ],
     proprietary: true,
 }
 
@@ -82,5 +86,9 @@ cc_binary {
         "aidl/service.cpp",
         "aidl/Power.cpp",
         "aidl/PowerExt.cpp",
+    ],
+    header_libs: [
+        "libhardware_headers",
+        "generated_kernel_headers",
     ],
 }
