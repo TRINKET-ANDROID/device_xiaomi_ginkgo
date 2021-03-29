@@ -39,3 +39,7 @@
 
 /dev/cpu_dma_latency                                                                           u:object_r:latency_device:s0
 /dev/socket/pps                                                                                u:object_r:pps_socket:s0
+
+# Thermal HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.thermal@2\.0-service\.ginkgo                 u:object_r:hal_thermal_default_exec:s0
+/vendor/bin/thermal_logd                                                                       u:object_r:init-thermal-logging-sh_exec:s0
