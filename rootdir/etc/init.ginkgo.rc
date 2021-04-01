@@ -6,6 +6,9 @@ on early-init
     write /dev/stune/schedtune.boost 50
     write /dev/stune/schedtune.prefer_idle 1
 
+on fs
+    setprop vendor.thermal.config thermal_info_config.json
+
 on post-fs
     # Start services for bootanim
     start surfaceflinger
