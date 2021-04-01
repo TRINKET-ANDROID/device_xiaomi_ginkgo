@@ -305,6 +305,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service.ginkgo \
     powerhint.json
 
+# PowerStats HAL
+PRODUCT_PACKAGES += \
+    android.hardware.power.stats@1.0-service.ginkgo
+
 # Perf
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
