@@ -16,6 +16,7 @@
 cc_binary {
     name: "android.hardware.power.stats@1.0-service.ginkgo",
     relative_install_path: "hw",
+    vintf_fragments: ["android.hardware.power.stats@1.0-service.ginkgo.xml"],
     init_rc: ["android.hardware.power.stats@1.0-service.ginkgo.rc"],
     srcs: [
         "service.cpp",
