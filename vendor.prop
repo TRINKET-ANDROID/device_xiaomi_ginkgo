@@ -148,11 +148,11 @@ ro.telephony.iwlan_operation_mode=legacy
 ro.vendor.use_data_netmgrd=true
 
 # Display
-debug.egl.hw=0
+debug.egl.hw=1
 debug.hwui.renderer=skiavk
 debug.mdpcomp.logs=0
 debug.sf.disable_backpressure=1
-#debug.sf.enable_hwc_vds=1
+debug.sf.enable_hwc_vds=0
 debug.sf.latch_unsignaled=1
 debug.sf.hw=1
 persist.sys.sf.color_saturation=1.0
