@@ -385,6 +385,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel
 
+# Smart Charge
+PRODUCT_PACKAGES += \
+    vendor.syberia.smartcharge@1.0-service
+
 # Telephony
 PRODUCT_PACKAGES += \
     qti-telephony-hidl-wrapper \

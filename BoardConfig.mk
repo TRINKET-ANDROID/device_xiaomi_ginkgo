@@ -187,6 +187,10 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# Smart Charge
+TARGET_SMARTCHARGE_CONTROL_NODE := "sys/class/power_supply/battery/input_suspend"
+TARGET_SMARTCHARGE_REVERSE_LOGIC := true
+
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 BOARD_VNDK_VERSION := current
