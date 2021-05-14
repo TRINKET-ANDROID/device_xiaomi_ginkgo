@@ -937,3 +937,6 @@ service vendor.hwcomposer-2-4 /vendor/bin/hw/android.hardware.graphics.composer@
 
 service perf-hal-2-2 /system/bin/true
     disabled
+
+service iop-hal-2-0 /system/bin/true
+    disabled
