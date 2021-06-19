@@ -118,6 +118,7 @@ vendor/lib/rfsa/adsp/misound_res.bin
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|d8dfb2073f73b96b1d63c794fa617c10875af60c
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
 vendor/lib/btaudio_offload_if.so|e422d4f377be4d2f66e2053526edaa001a2bef3b
+vendor/lib/com.dsi.ant@1.0.so|b167aecd52223065545ad1f76f049b088f6004a2
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|bf5843fd1174eae2ac7ffb8d2aca17b883566c0a
 vendor/lib/hw/audio.bluetooth_qti.default.so|5c15d6e1c46147ef00b1272a7c21a32270f0dc11
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|a601e0680d13d624080d2c3e51f3fb7fd1f743cd
@@ -132,6 +133,7 @@ vendor/lib/libbtnv.so|7e61a83cd9065e92eca8844f02a0de396d24e3cd
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|3e65742bbb18a89fc2e0695a69bf73d7889f475a
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so|b913cfd039d2aa1c2b1b315d940b95f76f4a52dd
 vendor/lib64/btaudio_offload_if.so|0a9f218a196538cab4d83b216f2c91fb6692b6ae
+vendor/lib64/com.dsi.ant@1.0.so|614277f65bf32aaf0e072d6740bfb2896a32cbb5
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|252abaab5b56ba6c75062739ac2c5ff6654b7ed9
 vendor/lib64/hw/audio.bluetooth_qti.default.so|4f04a1b8d8a5403ffda0addb5c1d982f5009725e
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|76ec04f3a1fa76382998365c4fe315313f50d335
