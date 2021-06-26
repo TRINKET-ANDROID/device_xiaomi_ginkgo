@@ -299,7 +299,6 @@ PRODUCT_PACKAGES += \
 
 # Power HAL
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.ginkgo \
     android.hardware.power-service.ginkgo \
     powerhint.json
 
