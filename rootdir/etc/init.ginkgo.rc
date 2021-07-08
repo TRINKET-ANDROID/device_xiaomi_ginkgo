@@ -62,6 +62,9 @@ on property:sys.boot_completed=1
     # Restrict permission to socket file 
     chmod 440 /proc/net/unix
 
+    # GPU Throttling
+    write /sys/devices/platform/soc/5900000.qcom,kgsl-3d0/kgsl/kgsl-3d0/throttling 0
+
 on property:vendor.post_boot.parsed=1
     # Override thermal policy
     write /sys/devices/virtual/thermal/thermal_zone61/policy "low_limits_floor"
