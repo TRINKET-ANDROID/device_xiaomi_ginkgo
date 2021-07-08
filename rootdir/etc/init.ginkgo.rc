@@ -63,6 +63,10 @@ on property:sys.boot_completed=1
     chmod 440 /proc/net/unix
 
 on property:vendor.post_boot.parsed=1
+    # Override thermal policy
+    write /sys/devices/virtual/thermal/thermal_zone61/policy "low_limits_floor"
+    write /sys/devices/virtual/thermal/thermal_zone62/policy "low_limits_floor"
+
     # Setup cpusets
     write /dev/cpuset/top-app/cpus 0-7
     write /dev/cpuset/foreground/cpus 0-2,5-7
